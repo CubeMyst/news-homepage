@@ -13,6 +13,7 @@ export default function Navbar() {
 	 */
 	function handleMenuToggle() {
 		setMenuOpen(!menuOpen);
+		document.body.classList.toggle('no-scroll', !menuOpen)
 	}
 
 	return (
